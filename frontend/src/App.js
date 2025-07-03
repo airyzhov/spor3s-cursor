@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div style={{ fontFamily: "Arial", background: "#f5f5f5", minHeight: "100vh", padding: 20 }}>
-      <img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" style={{ width: 80, borderRadius: 20 }} />
+   {/* <img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" style={{ width: 80, borderRadius: 20 }} /> */}
       <h1 style={{ color: "#2e2e2e" }}>spor3s</h1>
       <h2>Меню</h2>
       <ul>
