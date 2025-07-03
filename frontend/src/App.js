@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import PRODUCTS from "./products";
-import logo from "./frontend/public/logo.png";
+
 
 const API_URL = "/api";
-
+   function App() {
+     // ... ваш код ...
+     return (
+       <div>
+         <img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" style={{ width: 80, borderRadius: 20 }} />
+         <h1>spor3s</h1>
+         {/* ... остальной код ... */}
+       </div>
+     );
+   }
 function App() {
   const [chat, setChat] = useState([]);
   const [input, setInput] = useState("");
