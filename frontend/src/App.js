@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PRODUCTS from "./products";
-import logo from "./public/logo.png";
+import logo from "./frontend/public/logo.png";
 
 const API_URL = "/api";
 
