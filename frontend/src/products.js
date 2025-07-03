@@ -1,14 +1,24 @@
-{
-  "name": "spor3s-miniapp-frontend",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+const PRODUCTS = [
+  {
+    name: "Микродозинг Микс",
+    price: "2500₽",
+    desc: "Комплекс для мягкого старта. 30 капсул."
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+  {
+    name: "Lion’s Mane",
+    price: "2000₽",
+    desc: "Гриб для памяти и концентрации. 30 капсул."
+  },
+  {
+    name: "Cordyceps",
+    price: "2000₽",
+    desc: "Для энергии и выносливости. 30 капсул."
+  },
+  {
+    name: "Reishi",
+    price: "2000₽",
+    desc: "Для иммунитета и спокойствия. 30 капсул."
   }
-}
+];
+
+export default PRODUCTS;
